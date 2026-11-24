@@ -185,13 +185,13 @@ The adaptation checklist for a sourced or purchased set:
 
 **When to redraw rather than adapt?** When the concept is brand-defining (a signature pictogram family for an event), when the sourced set cannot meet the accessibility bar in your palette, or when the licence cannot cover your media. Otherwise adapt — ownership of the *system* (grid, hand, naming, process) matters more than ownership of every glyph.
 
-## 8. Examples
+## 7. Examples
 
 **The Material system [accessed].** Google's Material Design publishes the canonical public spec: 24dp grid, 20dp live area, keyline shapes at the dimensions listed in 4.1, uniform 2dp stroke, 2dp silhouette radius, 48dp touch targets, and per-context opacity conventions (87%/54%/38% on light backgrounds, 100%/70%/50% on dark, for active/inactive states) [accessed]. Its later Material Symbols iteration delivers the set as a variable icon font with adjustable weight and style axes [search-verified]. Even brands that never use Material benefit from copying the *documentation pattern*: grid, keylines, stroke, radius, targets, states — one page that makes any future icon reviewable.
 
 **An event pictogram family (illustrative composite).** A sports event builds its venue wayfinding on a 48px grid derived from its logo geometry — every pictogram shares the logo's corner cut and 45° angles, with a 4px stroke matched to the brand's line family. The pictograms pass the blur test as a row, survive greyscale printing on temporary signage, and extend to new venue zones without re-design because the grid and hand are documented. The motif derivation method is the one described in [Graphic language](graphic-language.md) and [Fixed logo analysis](../branding/fixed-logo-analysis.md).
 
-## 9. Common mistakes
+## 8. Common mistakes
 
 - **No grid.** Icons drawn per-case at whatever size felt right; the set never lines up. Correction: adopt or write the grid spec (4.1) and rebuild the ten most-used icons first.
 - **Mixed hands.** Round terminals next to flat, two stroke weights in one row, one isometric icon among flat ones. Correction: choose the hand, audit the set, redraw the outliers.
@@ -202,7 +202,7 @@ The adaptation checklist for a sourced or purchased set:
 - **Set drift.** Icons added over years by different hands with no template. Correction: publish the template, run a stroke/bounding-box audit, and require the grid file in every submission.
 - **The logo in the icon set.** Logo-as-icon dilutes the mark and breaks the system's neutrality. Correction: icons may share geometry with the logo, never replace it (section 3).
 
-## 10. Evaluation checklist
+## 9. Evaluation checklist
 
 - [ ] A written grid spec exists: base size, live area, keyline shapes, stroke weight, corner radius, terminal and join styles.
 - [ ] Every icon sits on its keyline; the blur test passes across a representative row.
@@ -214,7 +214,7 @@ The adaptation checklist for a sourced or purchased set:
 - [ ] Sourced icons are licence-cleared for all deployed media and adapted to the brand hand.
 - [ ] New icons can be produced by any trained contributor using the template alone.
 
-## 11. Related topics
+## 10. Related topics
 
 - [Graphic language](graphic-language.md) — the vocabulary ruleset that icon construction inherits.
 - [Illustration](illustration.md) — the larger-scale drawn imagery and its commissioning discipline.
@@ -224,7 +224,7 @@ The adaptation checklist for a sourced or purchased set:
 - [Fixed logo analysis](../branding/fixed-logo-analysis.md) — deriving icon geometry from a fixed logo.
 - [Visual identity](../branding/visual-identity.md) — the system the icon set belongs to.
 
-## 12. References
+## 11. References
 
 - Material Design 1 specification (mirror), "Icons" — 24dp system icons; 20dp live area with 4dp padding; keyline shapes: 18dp square, 20dp circle, 16×20 and 20×16 rectangles; 2dp stroke; 2dp silhouette corner radius; 1.5dp optical corrections (paperclip, microphone examples); 48dp touch targets (dense 20dp/40dp); state opacities 87/54/38 light and 100/70/50 dark. https://www.mdui.org/en/design/1/style/icons.html [accessed 2026-11-23]
 - Material Design, "System icons" — original documentation of the 24dp icon grid and keylines. https://m2.material.io/design/iconography/system-icons.html [search-verified]
