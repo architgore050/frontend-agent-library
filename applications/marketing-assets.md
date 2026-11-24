@@ -55,7 +55,7 @@ The hero is the first viewport of a landing page; its job sequence is fixed:
 4. **Supporting visual** — product shot, event imagery, or a graphic that makes the promise concrete.
 5. **Reassurance strip** — dates, location, trust marks, "no credit card" style friction-killers — small, below the action.
 
-The page is built natively (HTML/CSS), not as a flattened image: text must be selectable, responsive and fast; typography follows [Web typography](../typography/web-typography.md) and the layout system the page inherits is defined in the UI/UX domain (see [UI/UX domain](../ui-ux/)). Responsive behaviour is non-negotiable: the hero must stack cleanly on a phone (headline → CTA → visual), which also matches how most traffic arrives. Buttons follow colour-contrast rules ([Colour accessibility](../colour/colour-accessibility.md)) and remain large enough to tap (conventional minimum touch target ≈ 44–48 px).
+The page is built natively (HTML/CSS), not as a flattened image: text must be selectable, responsive and fast; typography follows [Web typography](../typography/web-typography.md) and the layout system the page inherits is defined in the UI/UX domain (see [UI fundamentals](../ui-ux/ui-fundamentals.md)). Responsive behaviour is non-negotiable: the hero must stack cleanly on a phone (headline → CTA → visual), which also matches how most traffic arrives. Buttons follow colour-contrast rules ([Colour accessibility](../colour/colour-accessibility.md)) and remain large enough to tap (conventional minimum touch target ≈ 44–48 px).
 
 ### 4.4 Promotional announcements
 
@@ -171,7 +171,7 @@ Same campaign, deadline-first variant: the feed graphic (1080 × 1350 from the s
 - [Palette development](../colour/palette-development.md) — accent roles that make CTAs dominant.
 - [Colour accessibility](../colour/colour-accessibility.md) — contrast for buttons and text.
 - [Web typography](../typography/web-typography.md) — hero and email text rendering.
-- [UI/UX domain](../ui-ux/) — native landing-page layout systems and interaction patterns.
+- [UI fundamentals](../ui-ux/ui-fundamentals.md) — native landing-page layout systems and interaction patterns.
 
 ## 11. References
 
