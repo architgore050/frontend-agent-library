@@ -30,7 +30,7 @@ The checklist has eight sections (A–H). Work through them in order; each item 
 
 ### 4.1 How to run it
 
-1. Collect the kit's contents: logo files, colour values, type files/licenses, graphics, templates, guideline document, exports.
+1. Collect the kit's contents: logo files, colour values, type files/licences, graphics, templates, guideline document, exports.
 2. Verify each section; where measurement is required (contrast, sizes, clear space), measure and record the number in the evidence column.
 3. Score and classify defects using the severity model; propose corrections; re-check after fixes (the loop in §6 of [design-quality-framework.md](design-quality-framework.md)).
 
