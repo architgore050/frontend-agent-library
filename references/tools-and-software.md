@@ -201,7 +201,7 @@ Capability statements follow the same discipline: entries whose facts come from 
 
 **Best use cases.** Checking palette pairs before committing them to tokens; auditing existing UI; validating colour-on-image overlays. Well-known checkers: WebAIM Contrast Checker (webaim.org/resources/contrastchecker), browser extensions and built-in checks in tools like Stark for Figma [verify current availability].
 
-**Limitations.** Contrast ratio is necessary but not sufficient for accessibility — it cannot catch contrast-between-adjacent-colors issues, colour-blindness confusion beyond simulation, or motion/animation issues (see [Accessibility testing](../accessibility/accessibility-testing.md) for the full test stack).
+**Limitations.** Contrast ratio is necessary but not sufficient for accessibility — it cannot catch contrast-between-adjacent-colours issues, colour-blindness confusion beyond simulation, or motion/animation issues (see [Accessibility testing](../accessibility/accessibility-testing.md) for the full test stack).
 
 **Cost and licensing.** WebAIM's checker is free [stable, well-established].
 
