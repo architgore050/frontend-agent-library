@@ -111,7 +111,7 @@ Most direction questions collapse into a few recurring situations; deciding them
 | Campaign needs more energy than the identity allows | Use the subordinate-register mechanism ([Visual styles](visual-styles.md), section 5): energy goes to hero surfaces only, and resolves back before functional surfaces |
 | Two contributors produce conflicting versions | The arbiter picks by the written criteria, and the losing direction's lessons go into the log; conflicts are criteria gaps made visible |
 
-### 5. Practical application
+## 5. Practical application
 
 ### 5.1 Standing up art direction for a brand (the one-week path)
 
