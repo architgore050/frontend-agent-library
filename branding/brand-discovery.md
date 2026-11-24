@@ -92,7 +92,7 @@ Follow the audit checklist in §5.2. Score findings by impact and effort (the Sp
 
 ### Step 6 — Inventory existing brand assets
 
-Physically gather: every logo file and variant in circulation (source files where they exist); font licenses and files; colour specifications (and the colours actually in use); photography and illustration libraries; templates; domain and social handles; merchandise, signage and any legacy artwork. Record per asset: version, format, owner, license status, and whether it is fixed, deprecated or open for redesign. This inventory is what makes the "fixed logo" workflow possible — before designing anything, the agent knows exactly what exists, in what quality, with what permissions.
+Physically gather: every logo file and variant in circulation (source files where they exist); font licences and files; colour specifications (and the colours actually in use); photography and illustration libraries; templates; domain and social handles; merchandise, signage and any legacy artwork. Record per asset: version, format, owner, licence status, and whether it is fixed, deprecated or open for redesign. This inventory is what makes the "fixed logo" workflow possible — before designing anything, the agent knows exactly what exists, in what quality, with what permissions.
 
 ### Step 7 — Define communication objectives
 
@@ -205,7 +205,7 @@ Theme 1 — <theme> (roles citing it: ...). Theme 2 — ...
 Constraints/mandatories: ... Risks: ...
 ## 6. Audit findings
 1. <finding> — impact 3 / effort 1 → first. 2. ... (evidence: <links>)
-Asset inventory: <table — asset, version, owner, license, fixed/open>
+Asset inventory: <table — asset, version, owner, licence, fixed/open>
 ## 7. Communication objectives
 O1: <behavioural, checkable>. O2: ...
 ## 8. Implications for strategy and design
@@ -260,7 +260,7 @@ I1: ... I2: ... Open questions: ... Assumptions flagged: ...
 - [ ] Stakeholder interviews ran one-to-one, semi-structured, covering success, history, audience, competitors and operations.
 - [ ] Interview findings are thematically coded (five or more interviewees) or otherwise systematically summarised.
 - [ ] The audit covered visual identity, verbal identity, digital presence, perception, competitors and governance, with findings scored by impact and effort.
-- [ ] An asset inventory exists with version, format, owner, license and fixed/open status for every asset.
+- [ ] An asset inventory exists with version, format, owner, licence and fixed/open status for every asset.
 - [ ] Communication objectives are behavioural and checkable.
 - [ ] The discovery summary ends with implications, open questions and assumptions explicitly labelled.
 - [ ] No claim in the brief rests on a single uncorroborated source without being flagged.
