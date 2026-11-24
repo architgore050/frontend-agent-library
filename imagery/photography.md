@@ -40,7 +40,7 @@ A photography style is defined across six axes. For each axis, decide once, writ
 
 Subject selection answers "what (and who) does this brand photograph?"
 
-- **People versus objects.** People-centered imagery carries warmth, trust and social proof; object-centred imagery carries precision, control and product focus. Many brands fix a ratio (for example "people appear in at most 40% of images, and never alone — always mid-action") so neither dominates by accident.
+- **People versus objects.** People-centred imagery carries warmth, trust and social proof; object-centred imagery carries precision, control and product focus. Many brands fix a ratio (for example "people appear in at most 40% of images, and never alone — always mid-action") so neither dominates by accident.
 - **Activities over possessions.** A photograph of hands working, a conversation happening, or a tool in use communicates more than a static product shot, because the viewer infers a story. Professional convention in editorial and brand work favours "doing" over "posing".
 - **Real context versus constructed sets.** Real locations ground the brand in a world; constructed or clean sets communicate polish. Pick one and stay within it.
 - **Casting and honesty.** Subjects should look like the audience the brand actually serves. Where images will imply real customers or staff (testimonials, team pages), they must genuinely be those people — see the misinformation discussion in [Image selection](image-selection.md) and the rights consequences of recognisable people in [Image rights](image-rights.md).
