@@ -92,7 +92,7 @@ The recurring hallucination classes, with their signatures:
 - **Fake licence terms:** "free for commercial use" about a font whose actual licence restricts embedding. Signature: licence language without the licence document. Defence: primary documents only.
 - **Invented brand facts:** "the brand's official colour is #0057B8" when no such specification exists. Signature: specificity without provenance. Defence: sample from real files; ask when unknown.
 - **Confident aesthetics:** pairing or palette justifications that sound like expertise ("the transitional serif balances the geometric sans") and may be true — but are hypotheses to render, not facts to apply.
-- **Fabricated references:** citations to studies, guidelines or articles that do not exist, or exist with different content. Defence: never cite a source you have not opened; this rule is also this repository's authoring rule (see [BRIEF-adjacent discipline](../references/index.md) if present in your copy).
+- **Fabricated references:** citations to studies, guidelines or articles that do not exist, or exist with different content. Defence: never cite a source you have not opened; this rule is also this repository's authoring rule (see [Source accessibility](../references/source-accessibility.md), section 9).
 
 The meta-defence is §4.3's table: every claim type has a named verification method, and "it sounded right" is not among them.
 
