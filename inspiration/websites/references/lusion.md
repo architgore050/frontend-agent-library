@@ -4,7 +4,7 @@
 
 ## Why it is worth studying
 
-Lusion is the award-circuit reference for WebGL-first studio portfolios — real-time 3D as the site's material (not decoration), playful physics, and the specific craft of making an immersive site that still loads, still navigates and still communicates. It is the study object for the [motion-led and 3D styles](../../visual-styles/interface-styles.md) §4.10–4.12, and for the loading/performance discipline heavy sites must observe ([../../frontend-engineering/performance.md](../../frontend-engineering/performance.md)).
+Lusion is the award-circuit reference for WebGL-first studio portfolios — real-time 3D as the site's material (not decoration), playful physics, and the specific craft of making an immersive site that still loads, still navigates and still communicates. It is the study object for the [motion-led and 3D styles](../../../visual-styles/interface-styles.md) §4.10–4.12, and for the loading/performance discipline heavy sites must observe ([../../frontend-engineering/performance.md](../../../frontend-engineering/performance.md)).
 
 ## Visual direction
 
@@ -24,7 +24,7 @@ The scene IS the layout: UI floats over simulation space; content sections arriv
 
 ## Navigation
 
-Minimal, persistent, scene-aware; project index as the conventional fallback surface — the two-layer pattern (immersive face + practical index) is the key architecture lesson ([../../motion-and-interaction/scroll-experiences.md](../../motion-and-interaction/scroll-experiences.md) §5.4).
+Minimal, persistent, scene-aware; project index as the conventional fallback surface — the two-layer pattern (immersive face + practical index) is the key architecture lesson ([../../motion-and-interaction/scroll-experiences.md](../../../motion-and-interaction/scroll-experiences.md) §5.4).
 
 ## Interesting sections
 
@@ -34,7 +34,7 @@ Minimal, persistent, scene-aware; project index as the conventional fallback sur
 
 ## Interaction and motion
 
-Continuous simulation (paused when hidden), pointer-reactive scenes, scene transitions as page transitions. The motion budget is spent where it defines the site — everywhere else stays still ([../../motion-and-interaction/animation-libraries.md](../../motion-and-interaction/animation-libraries.md) one-context discipline).
+Continuous simulation (paused when hidden), pointer-reactive scenes, scene transitions as page transitions. The motion budget is spent where it defines the site — everywhere else stays still ([../../motion-and-interaction/animation-libraries.md](../../../motion-and-interaction/animation-libraries.md) one-context discipline).
 
 ## Imagery and visual assets
 
@@ -58,8 +58,14 @@ Creative studios, award-class campaign sites, game-adjacent brands, immersive pr
 
 ## Related references and patterns
 
-[Igloo](igloo.md) (immersion peer), [Apple](apple.md) (scroll storytelling peer), [Vercel](vercel.md) (the sober opposite); patterns: [../patterns.md](../patterns.md) §immersive faces, §loading moments, §scene transitions.
+[Igloo](igloo.md) (immersion peer), [Apple](apple.md) (scroll storytelling peer), [Vercel](vercel.md) (the sober opposite); patterns: [../patterns.md](../../patterns.md) §immersive faces, §loading moments, §scene transitions.
 
 ## What to verify live
 
 Current works and scene style (studios refresh constantly); performance on your own hardware — this site is also a *test object* for WebGL budgeting.
+
+## References
+
+- This entry describes Lusion's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
