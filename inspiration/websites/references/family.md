@@ -16,21 +16,21 @@ A humanist sans with relaxed sizing; hierarchy via scale and position rather tha
 
 ## Colour system
 
-Soft pastel gradients (multi-hue blends kept subtle) as atmosphere; content on calm neutral surfaces; one accent for interaction. The gradient-as-atmosphere (not as decoration) discipline is the reference case ([../../visual-styles/interface-styles.md](../../visual-styles/interface-styles.md) glass/gradient atmosphere).
+Soft pastel gradients (multi-hue blends kept subtle) as atmosphere; content on calm neutral surfaces; one accent for interaction. The gradient-as-atmosphere (not as decoration) discipline is the reference case ([../../visual-styles/interface-styles.md](../../../visual-styles/interface-styles.md) glass/gradient atmosphere).
 
 ## Composition and layout
 
-Symmetric, centred, sparse: one message per screen, the product UI rendered beautifully, and whitespace doing the groupings ([../../foundations/gestalt-and-perception.md](../../foundations/gestalt-and-perception.md) proximity as the layout engine).
+Symmetric, centred, sparse: one message per screen, the product UI rendered beautifully, and whitespace doing the groupings ([../../foundations/gestalt-and-perception.md](../../../foundations/gestalt-and-perception.md) proximity as the layout engine).
 
 ## Navigation
 
-Minimal — often a single screen with the store/action links; wayfinding through scroll narrative only. The extreme of the one-page pattern ([../../inspiration/directories.md](../../inspiration/directories.md) One Page Love category).
+Minimal — often a single screen with the store/action links; wayfinding through scroll narrative only. The extreme of the one-page pattern ([../../inspiration/directories.md](../../../inspiration/directories.md) One Page Love category).
 
 ## Interesting sections
 
-- **The first screen:** promise, product UI, atmosphere — the complete above-the-fold craft study ([../patterns.md](../patterns.md) §heroes).
+- **The first screen:** promise, product UI, atmosphere — the complete above-the-fold craft study ([../patterns.md](../../patterns.md) §heroes).
 - **Feature vignettes:** single-purpose screens with the UI enlarged and explained in one line.
-- **Download/moment surfaces:** the action screen as a designed moment (peak-end — [../../ux-psychology/design-laws.md](../../ux-psychology/design-laws.md) §3.20).
+- **Download/moment surfaces:** the action screen as a designed moment (peak-end — [../../ux-psychology/design-laws.md](../../../ux-psychology/design-laws.md) §3.20).
 
 ## Interaction and motion
 
@@ -38,7 +38,7 @@ Gentle micro-layer: soft hover lifts, slow atmospheric gradient drift, product-U
 
 ## Imagery and visual assets
 
-The product's own UI as the imagery; pastel gradient atmosphere layers; almost no photography. The "render your app beautifully" asset strategy ([../../assets/image-generation.md](../../assets/image-generation.md) §6 route note).
+The product's own UI as the imagery; pastel gradient atmosphere layers; almost no photography. The "render your app beautifully" asset strategy ([../../assets/image-generation.md](../../../assets/image-generation.md) §6 route note).
 
 ## Distinctive details
 
@@ -50,7 +50,7 @@ Trust through calm: the design says "this is gentle software for your family", a
 
 ## What to learn (and what to leave)
 
-**Learn:** one-screen-one-promise discipline; pastel gradient atmosphere; optical tuning as a practice; product-UI-as-imagery; motion calm. **Leave:** the sparseness for products that need explanation, and gradient atmosphere without the contrast checks ([../../accessibility/accessible-colour.md](../../accessibility/accessible-colour.md)).
+**Learn:** one-screen-one-promise discipline; pastel gradient atmosphere; optical tuning as a practice; product-UI-as-imagery; motion calm. **Leave:** the sparseness for products that need explanation, and gradient atmosphere without the contrast checks ([../../accessibility/accessible-colour.md](../../../accessibility/accessible-colour.md)).
 
 ## Suitable project types
 
@@ -58,8 +58,14 @@ Consumer apps, wellness/personal products, one-page launches, any calm-first bri
 
 ## Related references and patterns
 
-[Arc](arc.md) (warm sibling), [Apple](apple.md) (restraint peer), [Linear](linear.md) (the density opposite); patterns: [../patterns.md](../patterns.md) §heroes, §atmosphere gradients, §one-page.
+[Arc](arc.md) (warm sibling), [Apple](apple.md) (restraint peer), [Linear](linear.md) (the density opposite); patterns: [../patterns.md](../../patterns.md) §heroes, §atmosphere gradients, §one-page.
 
 ## What to verify live
 
 Current product set (Family ships several apps; the page changes with the portfolio), current gradient treatments.
+
+## References
+
+- This entry describes Family's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
