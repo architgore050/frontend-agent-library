@@ -16,7 +16,7 @@ Friendly humanist/grotesque mix with expressive display moments; the copy and th
 
 ## Colour system
 
-Warm, soft palettes (peach, cream, pastel ranges) with confident accent moments; gradients used atmospherically rather than structurally. The pastel-warm system ([../../visual-styles/interface-styles.md](../../visual-styles/interface-styles.md) organic warmth) is the reference for "friendly technology".
+Warm, soft palettes (peach, cream, pastel ranges) with confident accent moments; gradients used atmospherically rather than structurally. The pastel-warm system ([../../visual-styles/interface-styles.md](../../../visual-styles/interface-styles.md) organic warmth) is the reference for "friendly technology".
 
 ## Composition and layout
 
@@ -34,7 +34,7 @@ Simple nav; wayfinding is carried by narrative scroll — the site reads as a st
 
 ## Interaction and motion
 
-Micro-delight: playful hovers, small celebratory moments, characterful loading/empty states. Motion is sparse and warm — delight as seasoning ([../../motion-and-interaction/microinteractions.md](../../motion-and-interaction/microinteractions.md)).
+Micro-delight: playful hovers, small celebratory moments, characterful loading/empty states. Motion is sparse and warm — delight as seasoning ([../../motion-and-interaction/microinteractions.md](../../../motion-and-interaction/microinteractions.md)).
 
 ## Imagery and visual assets
 
@@ -58,8 +58,14 @@ Consumer apps, indie software, community products, any brand fighting commodity 
 
 ## Related references and patterns
 
-[Family](family.md) (warm sibling), [Figma](figma.md) (playful system peer), [Superlist](superlist.md); patterns: [../patterns.md](../patterns.md) §narrative scroll, §micro-delight, §voice.
+[Family](family.md) (warm sibling), [Figma](figma.md) (playful system peer), [Superlist](superlist.md); patterns: [../patterns.md](../../patterns.md) §narrative scroll, §micro-delight, §voice.
 
 ## What to verify live
 
 Current company/site direction (has changed materially over time); whether the classic Arc page style persists.
+
+## References
+
+- This entry describes Arc (The Browser Company)'s design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
