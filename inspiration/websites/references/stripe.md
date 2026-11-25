@@ -30,8 +30,8 @@ Conventional mega-nav done precisely; the docs/product split is the model for co
 
 - **Hero:** promise + one product surface + one accent moment; the "one section per screen" discipline at industry scale.
 - **Checkout page (the product as hero):** Stripe's checkout is itself a design showcase — the form patterns are the reference for trust surfaces.
-- **Pricing:** transparent, tabular, comparison-friendly — the fintech-pricing reference ([../patterns.md](../patterns.md) §pricing).
-- **Docs:** information architecture at scale ([../../ui-ux/information-architecture.md](../../ui-ux/information-architecture.md)).
+- **Pricing:** transparent, tabular, comparison-friendly — the fintech-pricing reference ([../patterns.md](../../patterns.md) §pricing).
+- **Docs:** information architecture at scale ([../../ui-ux/information-architecture.md](../../../ui-ux/information-architecture.md)).
 
 ## Interaction and motion
 
@@ -59,8 +59,14 @@ Fintech, developer tools, B2B SaaS, anything trust-critical with pricing and doc
 
 ## Related references and patterns
 
-[Linear](linear.md) (the darker sibling), [Ramp](ramp.md) (editorial fintech), [Vercel](vercel.md) (developer minimalism); patterns: [../patterns.md](../patterns.md) §heroes, §pricing, §forms.
+[Linear](linear.md) (the darker sibling), [Ramp](ramp.md) (editorial fintech), [Vercel](vercel.md) (developer minimalism); patterns: [../patterns.md](../../patterns.md) §heroes, §pricing, §forms.
 
 ## What to verify live
 
 Current typefaces (marketing sites re-brand), the current section order, whether the gradient treatment has evolved.
+
+## References
+
+- This entry describes Stripe's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
