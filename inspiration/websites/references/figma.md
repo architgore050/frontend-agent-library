@@ -16,7 +16,7 @@ Grotesque workhorse with characterful display moments; the type scale stays conv
 
 ## Colour system
 
-A managed multi-hue palette: several saturated accents used with real discipline (each section owns its hue moment), neutral base, semantic colours functional. Worth studying as the counter-example to "playful = arbitrary colour" ([../../colour/palette-development.md](../../colour/palette-development.md) multi-accent systems).
+A managed multi-hue palette: several saturated accents used with real discipline (each section owns its hue moment), neutral base, semantic colours functional. Worth studying as the counter-example to "playful = arbitrary colour" ([../../colour/palette-development.md](../../../colour/palette-development.md) multi-accent systems).
 
 ## Composition and layout
 
@@ -29,7 +29,7 @@ Utility-clear top nav with strong product-line segmentation (Design/DevMode/FigJ
 ## Interesting sections
 
 - **Product hero with live-feeling UI:** the product working, characterful copy over it.
-- **Feature illustrations:** geometric brand illustrations that explain features — the illustration-as-explainer pattern ([../../assets/illustrations.md](../../assets/illustrations.md) system thinking).
+- **Feature illustrations:** geometric brand illustrations that explain features — the illustration-as-explainer pattern ([../../assets/illustrations.md](../../../assets/illustrations.md) system thinking).
 - **Community/template galleries:** marketplace surfaces with preview quality.
 - **Config event pages:** the campaign face of the brand — motion-led, still coherent.
 
@@ -59,8 +59,14 @@ Design tools, creative SaaS, developer-community products, conference/event site
 
 ## Related references and patterns
 
-[Superlist](superlist.md) (colour peer), [Arc](arc.md) (playfulness peer), [Stripe](stripe.md) (rigour peer); patterns: [../patterns.md](../patterns.md) §multi-accent systems, §feature illustrations, §template galleries.
+[Superlist](superlist.md) (colour peer), [Arc](arc.md) (playfulness peer), [Stripe](stripe.md) (rigour peer); patterns: [../patterns.md](../../patterns.md) §multi-accent systems, §feature illustrations, §template galleries.
 
 ## What to verify live
 
 Current brand era (Figma's identity evolves notably per era), current section patterns, Config style.
+
+## References
+
+- This entry describes Figma's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
