@@ -93,7 +93,7 @@ Preserve upstream changes rather than diverging:
 1. Fetch upstream (`git clone --depth 1` each upstream repo, or `git pull` an existing clone).
 2. Diff the upstream skill folder against `skills/taste/` (and `skills/be-ambitious/`).
 3. Replace the vendored folders with the upstream state; keep this repository's own additions out of the vendored tree (this README and the upstream-README copies live beside, not inside, the skill folders' logic).
-4. Record the new upstream commit hash and version in this file (§3) and in [../../PROJECT_STATUS.md](../../PROJECT_STATUS.md).
+4. Record the new upstream commit hash and version in this file (§3) and in [../../PROJECT_STATUS.md](../PROJECT_STATUS.md).
 5. Commit per the repository convention (`docs(skills): update taste-skill to vX.Y.Z (upstream @ hash)`) and re-run the §5 verification.
 
 If a local change to vendored files is ever unavoidable (a bug fix needed before upstream releases it), mark it clearly in the commit message and file header, and propose it upstream.
