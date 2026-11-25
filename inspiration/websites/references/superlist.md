@@ -8,7 +8,7 @@ Superlist is the current reference for *maximalist productivity branding*: vivid
 
 ## Visual direction
 
-Maximalist product brand: saturated colour blocks, oversized kinetic type, characterful 3D/illustrated assets, dynamic section compositions. The energy comes from rhythm and scale — not from clutter ([../../visual-styles/interface-styles.md](../../visual-styles/interface-styles.md) §4.6 maximalism at interface scale).
+Maximalist product brand: saturated colour blocks, oversized kinetic type, characterful 3D/illustrated assets, dynamic section compositions. The energy comes from rhythm and scale — not from clutter ([../../visual-styles/interface-styles.md](../../../visual-styles/interface-styles.md) §4.6 maximalism at interface scale).
 
 ## Typography
 
@@ -16,11 +16,11 @@ Display-first: very large expressive type, kinetic moments (type that animates m
 
 ## Colour system
 
-Vivid multi-hue system with one organising logic (hue zones per section/theme); saturated grounds where energy serves, neutrals where content needs air. Worth studying for how to run *many* colours without noise ([../../colour/palette-development.md](../../colour/palette-development.md) accent systems at maximal scale).
+Vivid multi-hue system with one organising logic (hue zones per section/theme); saturated grounds where energy serves, neutrals where content needs air. Worth studying for how to run *many* colours without noise ([../../colour/palette-development.md](../../../colour/palette-development.md) accent systems at maximal scale).
 
 ## Composition and layout
 
-Dynamic: diagonal compositions, overlapping type and illustration, full-bleed colour bands alternating with product surfaces. The grid still exists underneath — the asymmetry is deliberate placement ([../../layout/grid-systems.md](../../layout/grid-systems.md)).
+Dynamic: diagonal compositions, overlapping type and illustration, full-bleed colour bands alternating with product surfaces. The grid still exists underneath — the asymmetry is deliberate placement ([../../layout/grid-systems.md](../../../layout/grid-systems.md)).
 
 ## Navigation
 
@@ -28,13 +28,13 @@ Standard utility nav kept neutral — the system's one quiet zone (a good lesson
 
 ## Interesting sections
 
-- **Kinetic hero:** oversized animated type + product moment — the current kinetic-type reference ([../../visual-styles/texture-and-period-styles.md](../../visual-styles/texture-and-period-styles.md) §6 kinetic).
+- **Kinetic hero:** oversized animated type + product moment — the current kinetic-type reference ([../../visual-styles/texture-and-period-styles.md](../../../visual-styles/texture-and-period-styles.md) §6 kinetic).
 - **Feature bands:** colour-blocked sections where each feature owns a hue moment.
 - **App-store/product surfaces:** the loud brand meeting real product UI — the seam is managed carefully (worth studying for any loud brand with a sober product).
 
 ## Interaction and motion
 
-Kinetic type entrances, playful hover states, energetic scroll moments — all on a budget: two-three loud moments per page, quiet elsewhere ([../../motion-and-interaction/motion-principles.md](../../motion-and-interaction/motion-principles.md) hierarchy).
+Kinetic type entrances, playful hover states, energetic scroll moments — all on a budget: two-three loud moments per page, quiet elsewhere ([../../motion-and-interaction/motion-principles.md](../../../motion-and-interaction/motion-principles.md) hierarchy).
 
 ## Imagery and visual assets
 
@@ -58,8 +58,14 @@ Productivity/creative consumer tools, youth-facing brands, event/campaign sites,
 
 ## Related references and patterns
 
-[Figma](figma.md) (colour system peer), [Apple](apple.md) (kinetic type peer), [Arc](arc.md) (personality peer); patterns: [../patterns.md](../patterns.md) §kinetic heroes, §hue zones, §colour bands.
+[Figma](figma.md) (colour system peer), [Apple](apple.md) (kinetic type peer), [Arc](arc.md) (personality peer); patterns: [../patterns.md](../../patterns.md) §kinetic heroes, §hue zones, §colour bands.
 
 ## What to verify live
 
 Current campaign style (Superlist iterates loudly), current type behaviour, app-store seam treatment.
+
+## References
+
+- This entry describes Superlist's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
