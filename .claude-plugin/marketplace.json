@@ -1,0 +1,39 @@
+{
+  "name": "frontend-agent-library",
+  "description": "A design-intelligence library and skill set for coding agents: the frontend-design workflow, the taste-skill craft/gate layer and the be-ambitious methodology, backed by a 100+ file knowledge base of design foundations, visual styles, typography, colour, motion, UX psychology, assets, inspiration references and visual QA.",
+  "owner": {
+    "name": "architgore050",
+    "url": "https://github.com/architgore050"
+  },
+  "plugins": [
+    {
+      "name": "frontend-agent-library",
+      "description": "Frontend design intelligence for agents: central workflow (frontend-design), vendored taste-skill 2.5.1 (craft rules, checker, finish gate) and be-ambitious (altitude/depth/range), plus the knowledge base they route to.",
+      "version": "1.0.0",
+      "source": "./",
+      "skills": [
+        "./skills/frontend-design",
+        "./skills/taste",
+        "./skills/be-ambitious"
+      ],
+      "author": {
+        "name": "architgore050",
+        "url": "https://github.com/architgore050"
+      },
+      "homepage": "https://github.com/architgore050/frontend-agent-library",
+      "repository": "https://github.com/architgore050/frontend-agent-library",
+      "license": "MIT",
+      "keywords": [
+        "skills",
+        "frontend",
+        "design",
+        "agents",
+        "ui",
+        "websites",
+        "taste",
+        "design-systems",
+        "accessibility"
+      ]
+    }
+  ]
+}
