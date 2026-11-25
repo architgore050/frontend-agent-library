@@ -1,0 +1,12 @@
+# Visual Styles (domain index)
+
+This domain extends [Graphic design → Visual styles](../graphic-design/visual-styles.md), which holds the classic aesthetic families (minimalism, Swiss, Bauhaus, constructivism, brutalism, editorial, contemporary digital, experimental typography) and the theory of how styles work — read that file first for the "a style is a position, not a costume" frame. The files here extend the vocabulary into the digital-interface and surface-treatment styles that frontend agents most often need to name, recognise and implement.
+
+| File | Contents | Consult when |
+| --- | --- | --- |
+| [Interface styles](interface-styles.md) | Styles defined by interface materiality and structure: glassmorphism, neumorphism, claymorphism, skeuomorphism, neo-brutalism, minimalism and maximalism at interface scale, bento grids, split-screen and asymmetric compositions, liquid and fluid interfaces, 3D and isometric, generative art, motion-led design, data-driven visualisation, pixel art and ASCII | Choosing the structural/aesthetic direction for a product, landing page or immersive experience |
+| [Texture and period styles](texture-and-period-styles.md) | Surface treatments and period aesthetics: grain and noise, halftone, dithering, duotone, risograph, collage, tactile design, retro-futurism, Y2K, cyberpunk, organic shapes, plus a texture vocabulary (fluted glass, thermal gradients, water ripples, speckled graphite, single-hue landscapes, blueprint grids, paper, contour lines, cloud and sky, pixel mosaics, lens distortion, stippled gradients, square-dot grids) and typographic styles (rebus, kinetic, experimental, modular typefaces) | Deciding on surface treatment, background systems, atmosphere, or a period flavour |
+
+Both files use the same entry format: recognise → where it works → implement → type, colour and assets → mistakes. Both defer to [Graphic design → Visual styles](../graphic-design/visual-styles.md) for mixing rules and lifecycle warnings, and to [Art direction](../graphic-design/art-direction.md) for how a style becomes a defensible direction rather than a costume.
+
+Related: [Moodboards](../methodology/moodboards.md) for testing a direction before production; [Patterns and textures](../graphic-design/patterns-and-textures.md) for the repeat-pattern craft behind several surface styles; [Motion principles](../motion-and-interaction/motion-principles.md) for the motion-led entry's implementation layer.
