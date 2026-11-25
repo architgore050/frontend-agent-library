@@ -125,7 +125,7 @@ How: this library is **tool-agnostic** — it does not assume a specific MCP ser
 5. **Read the console** — errors and warnings are QA findings.
 6. **Compare across viewports** — structure preserved, priority retained, nothing overlapping.
 
-The loop: capture → read → log findings (with viewport and evidence) → fix → re-capture. Where a mechanised gate exists (the taste-skill's checker and finish gate — [../../skills/taste/SKILL.md](../../skills/taste/SKILL.md) §4 step 6), it runs as the automation layer for steps 2–4; the human/agent eye still owns the aesthetic judgement (§3 principle 5's defect-vs-decision split). Agents without browser automation fall back to static analysis plus the discipline of simulating states (devtools-style testing by whoever runs the build) — and record that limitation in the QA report.
+The loop: capture → read → log findings (with viewport and evidence) → fix → re-capture. Where a mechanised gate exists (the taste-skill's checker and finish gate — [../../skills/taste/SKILL.md](../skills/taste/SKILL.md) §4 step 6), it runs as the automation layer for steps 2–4; the human/agent eye still owns the aesthetic judgement (§3 principle 5's defect-vs-decision split). Agents without browser automation fall back to static analysis plus the discipline of simulating states (devtools-style testing by whoever runs the build) — and record that limitation in the QA report.
 
 Pass criteria: the rendered page passes the §5.1–5.8 checks *as observed in captures*; the console is clean; the meta-test of [ai-design-failures.md](ai-design-failures.md) ("what marks this as generic?") has been answered and its findings logged.
 
@@ -185,7 +185,7 @@ Order fixes by severity, then effort, then dependency (token fixes first — the
 - [../foundations/principles-of-design.md](../foundations/principles-of-design.md) — underlying composition and hierarchy theory.
 - [../information-design/data-visualisation.md](../information-design/data-visualisation.md) — deeper criteria for charts embedded in pages.
 - [ai-design-failures.md](ai-design-failures.md) — the generic-AI failure catalogue this QA pass should include.
-- [../../motion-and-interaction/motion-principles.md](../../motion-and-interaction/motion-principles.md) — the motion budget and reduced-motion checks the loop verifies.
+- [../../motion-and-interaction/motion-principles.md](../motion-and-interaction/motion-principles.md) — the motion budget and reduced-motion checks the loop verifies.
 
 ## 11. References
 
