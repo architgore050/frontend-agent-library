@@ -256,3 +256,80 @@ Computed with `find`/`wc` on 2026-11-24; the evidence base for sections 3 and 4.
 | **Root** (2 files) | **601** |
 | `README.md` | 350 |
 | `PROJECT_STATUS.md` | 251 |
+
+---
+
+# Part II — The November 2025 frontend expansion
+
+## 12. What this part records
+
+The library's second build phase (executed 2026-11-25): turning the design knowledge base into a full frontend design intelligence system per the expansion brief — mandatory skill integrations, an inspiration discovery system, asset intelligence, extended design/UX/engineering knowledge, a curated GitHub sweep, a visual-QA loop with an AI-failure catalogue, and the central frontend-design orchestration skill. Counts below were recomputed with `find`/`wc` on the tree at the end of the phase.
+
+## 13. Expansion build summary
+
+| Measure | Value |
+| --- | --- |
+| New top-level directories | 8 (skills/, inspiration/, assets/, motion-and-interaction/, ux-psychology/, visual-styles/, frontend-engineering/, github-resources/) |
+| New authored files | 55 (2 skills-layer docs + 1 skill + 19 inspiration + 13 assets + 4 motion + 1 ux-psychology + 3 visual-styles + 5 frontend-engineering + 1 catalogue + 1 source log + 1 AI-failures guide + 1 CONTRIBUTING + 1 LICENSE + 1 plugin manifest + README/PROJECT_STATUS updates) |
+| Vendored upstream | taste-skill 2.5.1 complete (1,630 files, ~40 MB, unmodified, MIT © 2026 Leonxlnx, upstream @ d1a2bb41) and be-ambitious (SKILL.md + LICENSE + upstream README, MIT © 2026 RoboNuggets, upstream @ dc116a3e) |
+| Extended existing files | evaluation/website-visual-qa.md (§5.9 browser-automation loop added; template numbering preserved) |
+| Total library size | 144 authored Markdown files, ~29,600 lines (excluding the vendored taste tree) |
+| Commit discipline | one commit per authored file (vendored trees committed as five logical units for the taste tree + one for be-ambitious); every commit pushed to origin/main as it completed |
+
+## 14. Mandatory skill integration status
+
+| Requirement | Status | Evidence |
+| --- | --- | --- |
+| Taste Skill genuinely integrated | **Complete** | Full upstream skill vendored at [skills/taste/](skills/taste/SKILL.md) — SKILL.md, 22 reference docs, 12 scripts, complete assets kit, library files, LICENSE, CHANGELOG; upstream README preserved at UPSTREAM-README.md; unmodified except none. Attribution and licence preserved; install method (project-local symlink, user-level installer, plugin marketplace) documented in [skills/README.md](skills/README.md) §4; verification procedure (gate.mjs functional check + discovery check) in §5; main workflow routes landing-class builds through it ([skills/frontend-design/SKILL.md](skills/frontend-design/SKILL.md) phase 2 and 6). Upstream commit recorded. |
+| Be Ambitious genuinely integrated | **Complete** | SKILL.md vendored unmodified with LICENSE and upstream README; attribution to RoboNuggets and Felix Rieseberg's article preserved (community skill, not Anthropic product — stated explicitly in skills/README.md §3); invoked at phase 1 of the main workflow; install/verify documented in the same table row pattern as taste. |
+| Discoverability | **Provided for** | `.claude-plugin/marketplace.json` exposes all three skills as an installable plugin; `install-skills.sh` (upstream installer logic) symlinks all three by frontmatter name into `~/.claude/skills` or `~/.codex/skills`; project-local symlink commands documented. Functional gate verification requires Node 22+ and Chrome — environment-dependent, documented rather than claimed as run here. |
+
+## 15. Resource research progress
+
+- **URL verification:** ~90 candidate resource URLs checked by HTTP on 2026-11-25 (methods and statuses in [references/frontend-phase-sources.md](references/frontend-phase-sources.md)); bot-blocked and sandbox-fetch-failed entries recorded honestly rather than dropped.
+- **Name resolution:** 14 ambiguous research-brief names resolved via contextual search (GetLayers, ScrollTide, Kinetics, Hallmark, UISFX, Bencho, Particles Casberry, Kokonut UI, Spell UI, Watermelon UI, Origin Kit, HeroUI-as-Superhero, Better Web Type, Manus, Refactoring UI); 9 recorded as unresolved with practical equivalents noted ([inspiration/directories.md](inspiration/directories.md) §9) — none invented into a URL.
+- **GitHub sweep:** queries across the brief's categories plus direct API verification of a curated candidate list; 40+ repositories catalogued with live stars/licence/last-push data ([github-resources/catalogue.md](github-resources/catalogue.md)); high-star noise, unmaintained and no-licence candidates deliberately excluded and the exclusions documented (§8).
+- **Dormancy flagged:** Theatre.js (last push 2024-08-14) and particles.js (2024-03-28) recorded as dormant with exit-plan guidance.
+
+## 16. Inspiration collection progress
+
+- Directory catalogue: 9 general galleries, 4 landing/section galleries, 4 product-UI references, 15 component/UI registries, 6 motion/scroll resources, typography/colour/background/sound resources — each with verified status and search craft.
+- Individual website references: 12 structured entries (Stripe, Linear, Vercel, Apple, Figma, Arc, Family, Superlist, Ramp, Notion, Lusion, Igloo), each on the 16-field template with provenance discipline (canonical-grade descriptions dated 2026-11-25, "what to verify live" field per entry, no invented tech specifics).
+- Faceted index: industry, style, section, interaction, typography, colour and project-type facets; 25 use-case routes; 20+ extracted patterns traced to references; contribution workflow with anti-copying rules.
+- Capture material: browser-automation capture is documented as the inspection method; no scraped assets are stored in the repository (the legal-appropriateness rule), and entries are usable without them by design.
+
+## 17. Asset catalogue progress
+
+- Ten class catalogues (photography, illustrations, textures, 3D, icons, typography, video/motion, sound, backgrounds/effects, image generation) each with: what it provides, licence position, search craft, quality characteristics, limits, and a comparison table.
+- The nine-step acquisition workflow with an 11-criteria evaluation table; the route decision (discover vs generate) made explicit with an ethics boundary (identifiable people, factual imagery).
+- Image generation: tool-agnostic local-model provision (WAN Image / Qwen Image named as anticipated, not assumed), style-sheet discipline, seed reproducibility, cohesive sets, AI-tell QA.
+- Licensing: consolidated licence table with per-source verify pages, manifest template (sourced and generated rows), local-asset organisation rules, generated-imagery labelling rule.
+
+## 18. Verification results for the expansion
+
+- All authored files follow the standard 11-section template (catalogue files adapted per the brief's allowance, monotonic, References-terminated).
+- Cross-links are repository-relative; a full link-resolution pass ran at the end of the phase (see §21) and every broken or suspicious link found was fixed before the final commit.
+- Provenance: every new factual claim tagged with method and date; the log in [references/frontend-phase-sources.md](references/frontend-phase-sources.md) records fetch failures (phosphoricons.com, ambientcg.com, typewolf.com, fontesk.com unreachable from the build sandbox — `[search-verified]`, re-verify elsewhere) and bot-block statuses (Unsplash 401, Pexels/Openverse/Pixabay/Poly Pizza/LottieFiles/Pexels Video 403, SiteInspire 429, One Page Love 525, CSS Design Awards 202).
+- Marketplace JSON validated by parser; installer script syntax checked.
+- Numbers in this part recomputed from the tree, not copied from estimates.
+
+## 19. Known limitations (expansion-specific)
+
+- **Website reference entries are canonical-grade descriptions.** They date to 2026-11-25, describe design direction from documented professional knowledge, and deliberately avoid unverified technical specifics; each entry names what to verify live before relying on it. They are not screenshots-backed analyses — browser capture was not performed in this environment (the capability model is documented instead).
+- **Sandbox fetch failures** recorded above mean a handful of well-established sources (Phosphor, ambientCG, Typewolf, Fontesk) carry `[search-verified]` rather than `[accessed]` status; their licence facts re-verify per integration anyway (volatile-fact rule).
+- **Skill functional verification is environment-dependent.** The taste-skill gate requires Node 22+ and Chrome; the verification procedure is documented and the vendored scripts are upstream-verified, but the gate was not run end-to-end in this build environment.
+- **Unresolved names** (9) remain unresolved after multiple search formulations; they are recorded, not guessed.
+- **Commercial tools** (GetLayers, ScrollTide, Casberry, LottieFiles marketplace, Blush/Storyset free tiers) are catalogued with per-plan "verify before dependency" markers, not settled cost/licence claims.
+- **Commit granularity for vendored trees:** the taste tree committed as five logical units rather than 1,630 commits — a deliberate, documented exception to keep history reviewable.
+
+## 20. Outstanding work (candidates for the next pass)
+
+1. **Capture-backed website references.** With browser automation available, capture full-page and section screenshots for the 12 collection entries (and new ones) where legally appropriate, promoting entries from canonical to accessed-grade.
+2. **Gate end-to-end verification** of the vendored taste-skill in a target agent environment (Node 22+ / Chrome).
+3. **Promote `[search-verified]` sources to `[accessed]`** from a network path that reaches the five fetch-failed hosts.
+4. **Extend the website collection** toward 25–30 entries across more industries (architect/real-estate, gaming, fashion) per the collection's quality-and-diversity rule.
+5. **Re-verify repository statuses** in the GitHub catalogue at next use (statuses are dated 2026-11-25).
+
+## 21. Final validation pass (end of phase)
+
+A structural validation pass ran over the expanded tree at the end of the phase: template structure of all new files, repository-relative link resolution across authored files, marketplace JSON parse, installer script syntax, routing-table link integrity in this README, and per-directory counts matching §13. Fixes applied during the pass: a duplicated map entry (website-visual-qa) removed, reference-section wording corrections in microinteractions.md. The original build's validation record (§9) stands for the 89 pre-existing files; §9's "what remains open" items are unchanged for them.
