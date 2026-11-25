@@ -16,7 +16,7 @@ Grotesque display type used *large* — headline-first sections, tight leading, 
 
 ## Colour system
 
-Near-total monochrome with white-on-black inversion used sectionally for rhythm; gradients appear only as brand marks. The lesson: a colour system that *relies on typography and contrast* rather than hue variety ([../../colour/palette-development.md](../../colour/palette-development.md) monochrome systems).
+Near-total monochrome with white-on-black inversion used sectionally for rhythm; gradients appear only as brand marks. The lesson: a colour system that *relies on typography and contrast* rather than hue variety ([../../colour/palette-development.md](../../../colour/palette-development.md) monochrome systems).
 
 ## Composition and layout
 
@@ -59,8 +59,14 @@ Developer tools, infrastructure, engineering-led brands, event/campaign surfaces
 
 ## Related references and patterns
 
-[Linear](linear.md) (dark sibling), [Stripe](stripe.md) (docs/trust), [Arc](arc.md) (the consumer opposite); patterns: [../patterns.md](../patterns.md) §heroes, §monochrome systems, §template galleries.
+[Linear](linear.md) (dark sibling), [Stripe](stripe.md) (docs/trust), [Arc](arc.md) (the consumer opposite); patterns: [../patterns.md](../../patterns.md) §heroes, §monochrome systems, §template galleries.
 
 ## What to verify live
 
 Current typeface and brand refresh (Vercel has iterated), current template gallery form, event-page style.
+
+## References
+
+- This entry describes Vercel's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
