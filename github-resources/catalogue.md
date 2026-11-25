@@ -36,6 +36,7 @@ Queries ran across the mission's categories (agent skills, component libraries, 
 | [airbnb/lottie-web](https://github.com/airbnb/lottie-web) | 32,576 | MIT | 2025-09-01 | After Effects animation renderer; the designer-authored-motion bridge. Site https://airbnb.io/lottie |
 | [pmndrs/react-spring](https://github.com/pmndrs/react-spring) | 29,340 | MIT | 2026-11-24 | Spring-physics React animation; overlaps Motion — pick one per project. |
 | [tsparticles/tsparticles](https://github.com/tsparticles/tsparticles) | 9,127 | MIT | 2026-11-25 | Maintained particle effects (successor to vincentgarreau/particles.js, 30,180★, dormant since 2024). Site https://particles.js.org |
+| [vercel-labs/vgpu](https://github.com/vercel-labs/vgpu) | 2,726 | MIT | 2026-10-16 | Vercel's modular cross-runtime WebGPU library — shaders, 3D scenes, GPU tensors, math; the WebGL2→WebGPU path for shader-driven pages (site https://vgpu.labs.vercel.dev). Verified 2026-11-25 via the site's own GitHub link; resolved from the brief's "vGPU by Vercel". |
 
 ## 5. Components and UI systems
 
