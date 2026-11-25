@@ -4,7 +4,7 @@
 
 ## Why it is worth studying
 
-Igloo's site is the award-class reference for *cinematic scroll-driven immersion*: a single continuous 3D journey (an icy expedition narrative) driven by scroll, with sound, typography and scene transitions composed like film. It demonstrates the full honest-scroll pattern at maximum ambition — scrubbed scenes, scene persistence, atmosphere — and is the study object for the top end of [scroll experiences](../../motion-and-interaction/scroll-experiences.md) and [immersive styles](../../visual-styles/interface-styles.md) §4.10.
+Igloo's site is the award-class reference for *cinematic scroll-driven immersion*: a single continuous 3D journey (an icy expedition narrative) driven by scroll, with sound, typography and scene transitions composed like film. It demonstrates the full honest-scroll pattern at maximum ambition — scrubbed scenes, scene persistence, atmosphere — and is the study object for the top end of [scroll experiences](../../../motion-and-interaction/scroll-experiences.md) and [immersive styles](../../../visual-styles/interface-styles.md) §4.10.
 
 ## Visual direction
 
@@ -24,7 +24,7 @@ The journey is the layout: scroll position drives camera and scene state through
 
 ## Navigation
 
-Minimal journey controls (chapter indicators, skip affordances) — the immersive-face pattern with an honest escape hatch at every chapter ([../../motion-and-interaction/scroll-experiences.md](../../motion-and-interaction/scroll-experiences.md) §5.3 pinned-storytelling rules).
+Minimal journey controls (chapter indicators, skip affordances) — the immersive-face pattern with an honest escape hatch at every chapter ([../../motion-and-interaction/scroll-experiences.md](../../../motion-and-interaction/scroll-experiences.md) §5.3 pinned-storytelling rules).
 
 ## Interesting sections
 
@@ -58,8 +58,14 @@ Award-class brand experiences, game launches, film/entertainment, campaign sites
 
 ## Related references and patterns
 
-[Lusion](lusion.md) (immersion peer), [Apple](apple.md) (scrub storytelling peer), [Family](family.md) (the calm opposite); patterns: [../patterns.md](../patterns.md) §scrubbed journeys, §chapter navigation, §sound sync.
+[Lusion](lusion.md) (immersion peer), [Apple](apple.md) (scrub storytelling peer), [Family](family.md) (the calm opposite); patterns: [../patterns.md](../../patterns.md) §scrubbed journeys, §chapter navigation, §sound sync.
 
 ## What to verify live
 
 Current experience state (award sites iterate); the accessibility paths (reduced-motion, skip affordances) — verify they persist through updates.
+
+## References
+
+- This entry describes Igloo Inc's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
