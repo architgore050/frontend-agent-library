@@ -4,7 +4,7 @@ A structured Markdown knowledge base for frontend design, graphic design, visual
 
 The library is organised as sixteen top-level directories: fifteen knowledge domains plus a `references/` directory holding the source layer (bibliography, case studies, tool registry, source-accessibility index). Every substantive file follows the same template — what it is, why it matters, core principles, how it works, practical application, decision framework, examples, common mistakes, evaluation checklist, related topics, references — so an agent always knows what it will find and where. Cross-links use repository-relative paths and are extensive: follow them when a concept you need is defined elsewhere.
 
-**This README is a routing manual, not a textbook.** Its job is to send you to the right two to six files for your task, in the right order, and to state the ground rules (routing discipline, provenance tags, constraints) that keep the library trustworthy. The library at a glance, verified 2026-11-24: 15 knowledge domains plus a source layer, 89 substantive files, 24,165 lines of domain content, every file built on one standard template, and every citation carrying a provenance tag. Status: complete as of 2026-11-24; see [PROJECT_STATUS.md](PROJECT_STATUS.md) for per-domain completion evidence, known limitations and validation status.
+**This README is a routing manual, not a textbook.** Its job is to send you to the right two to six files for your task, in the right order, and to state the ground rules (routing discipline, provenance tags, constraints) that keep the library trustworthy. The library at a glance, verified 2026-11-25: 24 top-level directories — the original fifteen knowledge domains plus a source layer, and the November 2025 frontend expansion (skills, inspiration, assets, motion-and-interaction, ux-psychology, visual-styles, frontend-engineering, github-resources) — 144 substantive Markdown files and roughly 29,600 lines of domain content (excluding the vendored taste-skill tree), every knowledge file built on the standard template, and every citation carrying a provenance tag. The build is now anchored by three agent skills ([skills/](skills/README.md)): the central [frontend-design workflow](skills/frontend-design/SKILL.md) (which routes any frontend task into this library), the vendored [taste-skill 2.5.1](skills/taste/SKILL.md) and the vendored [be-ambitious methodology](skills/be-ambitious/SKILL.md). Status: per-domain completion evidence, known limitations and validation status in [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ---
 
@@ -72,6 +72,16 @@ Columns: the agent's task; files to read fully (**mandatory**); files to consult
 | Set up a dark mode or theme system | [Colour in code](colour/colour-in-code.md), [Design tokens](design-systems/design-tokens.md) | [Colour theory](colour/colour-theory.md), [Accessible colour](accessibility/accessible-colour.md), [Visual consistency](design-systems/visual-consistency.md) |
 | Evaluate a built website visually | [Website visual QA](evaluation/website-visual-qa.md), [Design quality framework](evaluation/design-quality-framework.md) | [Accessibility testing](accessibility/accessibility-testing.md), [Design system audit](evaluation/design-system-audit.md), [WCAG fundamentals](accessibility/wcag-fundamentals.md) |
 | Implement a responsive frontend | [Responsive design](ui-ux/responsive-design.md), [Frontend implementation](ui-ux/frontend-implementation.md), [Responsive layouts](layout/responsive-layouts.md) | [Web typography](typography/web-typography.md), [Colour in code](colour/colour-in-code.md), [Accessibility testing](accessibility/accessibility-testing.md) |
+| Build a landing page (the main frontend workflow) | [frontend-design skill](skills/frontend-design/SKILL.md) — the seven-phase workflow routes everything below | [Taste skill](skills/taste/SKILL.md) (governs landing-class builds), [AI design failures](evaluation/ai-design-failures.md) |
+| Establish a design direction (style, palette, type) | [Interface styles](visual-styles/interface-styles.md), [Texture and period styles](visual-styles/texture-and-period-styles.md), [Palette development](colour/palette-development.md) | [Classic styles and theory](graphic-design/visual-styles.md), [Art direction](graphic-design/art-direction.md), [Moodboards](methodology/moodboards.md) |
+| Find inspiration for a frontend project | [Use-case index](inspiration/use-case-index.md), [Website reference index](inspiration/websites/website-index.md), [Directories](inspiration/directories.md) | [Patterns](inspiration/patterns.md), [Website visual QA](evaluation/website-visual-qa.md) |
+| Plan, source or generate assets | [Acquisition workflow](assets/acquisition-workflow.md), the asset class file(s) from [Assets index](assets/README.md), [Licensing and provenance](assets/licensing-and-provenance.md) | [Image generation](assets/image-generation.md), [Image selection](imagery/image-selection.md), [Performance](frontend-engineering/performance.md) |
+| Choose and use animation/motion | [Motion principles](motion-and-interaction/motion-principles.md), [Animation libraries](motion-and-interaction/animation-libraries.md) | [Scroll experiences](motion-and-interaction/scroll-experiences.md), [Microinteractions](motion-and-interaction/microinteractions.md), [Interaction design](ui-ux/interaction-design.md) |
+| Apply UX psychology to flows and screens | [Design laws](ux-psychology/design-laws.md) | [Gestalt and perception](foundations/gestalt-and-perception.md), [UX fundamentals](ui-ux/ux-fundamentals.md) |
+| Choose a frontend stack or CSS architecture | [Technology selection](frontend-engineering/technology-selection.md), [CSS architecture](frontend-engineering/css-architecture.md) | [Performance](frontend-engineering/performance.md), [Frontend implementation](ui-ux/frontend-implementation.md), [GitHub catalogue](github-resources/catalogue.md) |
+| Evaluate a build for generic-AI failure modes | [AI design failures](evaluation/ai-design-failures.md), [Website visual QA](evaluation/website-visual-qa.md) | [Design quality framework](evaluation/design-quality-framework.md), [Taste skill](skills/taste/SKILL.md) |
+| Find an open-source frontend tool or skill | [GitHub resources catalogue](github-resources/catalogue.md), [Skills README](skills/README.md) | [Animation libraries](motion-and-interaction/animation-libraries.md), [Tools and software](references/tools-and-software.md) |
+| Install or verify the agent skills | [Skills README](skills/README.md) (install, verify, update) | [frontend-design skill](skills/frontend-design/SKILL.md), [Taste skill](skills/taste/SKILL.md) |
 
 ## D. Task workflows (reading sequences)
 
@@ -137,6 +147,18 @@ Ordered sequences for the six major project types. Read in this order; the posit
 4. Domain criteria for what you see: [Gestalt and perception](foundations/gestalt-and-perception.md), [Principles of design](foundations/principles-of-design.md), [Accessible colour](accessibility/accessible-colour.md) as the artefact requires.
 5. If a formal review is wanted: [Design critique (process)](methodology/design-critique.md) — the fixed review sequence that makes results comparable.
 6. Turn findings into change: [Iteration](methodology/iteration.md) — one reason per round, termination on evidence.
+
+### D7. Building a frontend (the main agent workflow)
+
+The full procedure lives in the [frontend-design skill](skills/frontend-design/SKILL.md), which routes into this library per phase. The shape, in one place:
+
+1. **Understand** — product, users, objective; the brief everything checks against ([Research and discovery](methodology/research-and-discovery.md)). Be Ambitious sets the standard ([Be Ambitious](skills/be-ambitious/SKILL.md)).
+2. **Establish direction** — invoke [Taste Skill](skills/taste/SKILL.md); name the style position ([Interface styles](visual-styles/interface-styles.md), [Texture and period styles](visual-styles/texture-and-period-styles.md)); palette, type and layout decisions ([Palette development](colour/palette-development.md), [Typeface selection](typography/typeface-selection.md), [Grid systems](layout/grid-systems.md)).
+3. **Research inspiration** — [Use-case index](inspiration/use-case-index.md) → [collection entries](inspiration/websites/website-index.md) → [patterns](inspiration/patterns.md); extract decisions, never pixels; check the [failure catalogue](evaluation/ai-design-failures.md).
+4. **Plan assets** — [Acquisition workflow](assets/acquisition-workflow.md) per slot; licences and provenance recorded ([Licensing and provenance](assets/licensing-and-provenance.md)).
+5. **Implement** — stack chosen from requirements ([Technology selection](frontend-engineering/technology-selection.md)); CSS architecture ([CSS architecture](frontend-engineering/css-architecture.md)); motion with purpose ([Motion principles](motion-and-interaction/motion-principles.md)); accessibility and performance as floors ([WCAG fundamentals](accessibility/wcag-fundamentals.md), [Performance](frontend-engineering/performance.md)).
+6. **Inspect and refine** — [Website visual QA](evaluation/website-visual-qa.md) including the browser loop (§5.9); the taste-skill gate on landing-class builds; findings merged and fixed in priority order.
+7. **Preserve knowledge** — exceptional finds contributed back ([Contributing inspiration](inspiration/contributing.md)).
 
 ## E. Knowledge dependencies
 
@@ -213,10 +235,13 @@ Six threads run through every domain; recognising them is what turns sixty-odd s
 
 ## J. Repository map
 
-Sixteen directories, ninety files (including this README). One-line descriptions; every link verified.
+Twenty-four directories, 144 Markdown files (plus the vendored taste-skill tree under `skills/taste/`). One-line descriptions; every link verified. The November 2025 frontend-expansion directories are marked **[new]**.
 
 **Root**
 - [README.md](README.md) — this routing manual: how to use, routing rules, task table, workflows, dependencies, quick reference, constraints, provenance tags, maintenance.
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute: template, provenance rules, per-file commits, vendor policy.
+- [LICENSE](LICENSE) — MIT, with attribution for the vendored skills.
+- [PROJECT_STATUS.md](PROJECT_STATUS.md) — research progress, coverage evidence, validation status.
 
 **[accessibility/](accessibility/wcag-fundamentals.md)** — the WCAG layer: what the standard requires and how to meet and test it.
 - [WCAG fundamentals](accessibility/wcag-fundamentals.md) — the standard's structure (POUR principles, levels A/AA/AAA) translated into designer and developer decisions; the normative base for all accessibility numbers.
@@ -260,8 +285,9 @@ Sixteen directories, ninety files (including this README). One-line descriptions
 
 **[evaluation/](evaluation/design-quality-framework.md)** — reusable evaluation: one master framework plus artefact checklists.
 - [Design quality framework](evaluation/design-quality-framework.md) — the master evaluation methodology every checklist applies.
+- [AI design failures](evaluation/ai-design-failures.md) **[new]** — the generic-AI failure catalogue: recognition tells and corrective files for each of 18 failure modes.
+- [Website visual QA](evaluation/website-visual-qa.md) — the visual pass over a built site, now including the browser-automation inspection loop (§5.9, **[new]**).
 - [Brand identity checklist](evaluation/brand-identity-checklist.md) — item-by-item brand-kit evaluation: what to check, how, and pass criteria.
-- [Website visual QA](evaluation/website-visual-qa.md) — the visual pass over a built site: spacing, tokens, states, responsive behaviour, defects.
 - [Design system audit](evaluation/design-system-audit.md) — scored audit of token coverage, component APIs, documentation, accessibility and drift.
 - [Poster checklist](evaluation/poster-checklist.md) — hierarchy at distance, contrast, print production, identity compliance.
 - [Social media checklist](evaluation/social-media-checklist.md) — platform dimensions and safe zones, feed-size readability, template consistency.
@@ -321,6 +347,7 @@ Sixteen directories, ninety files (including this README). One-line descriptions
 - [Case studies](references/case-studies.md) — real identities and design systems analysed through ten standard questions, with cross-cutting lessons.
 - [Tools and software](references/tools-and-software.md) — the design-tool ecosystem with a strict verify-current-pricing discipline.
 - [Source accessibility](references/source-accessibility.md) — the provenance index: access levels, what each allows you to claim, fetch failures recorded, re-verification procedures.
+- [Frontend phase sources](references/frontend-phase-sources.md) **[new]** — the verification log for the November 2025 expansion: methods, statuses, resolved/unresolved names, re-verification policy.
 
 **[typography/](typography/typography-fundamentals.md)** — the full typographic craft, from anatomy to browser delivery.
 - [Typography fundamentals](typography/typography-fundamentals.md) — anatomy, classification, and the mechanics of legibility and readability.
@@ -339,9 +366,55 @@ Sixteen directories, ninety files (including this README). One-line descriptions
 - [Responsive design](ui-ux/responsive-design.md) — one interface serving every viewport and input method, including the mobile-specific hazards.
 - [Frontend implementation](ui-ux/frontend-implementation.md) — translating design decisions into correct, maintainable CSS and structure.
 
+**[skills/](skills/README.md)** **[new]** — the executable layer: three agent skills and their integration architecture.
+- [Skills README](skills/README.md) — roles, complementarity, attribution/licences, install (Claude Code project-local, user-level, plugin), verification, upstream update procedure.
+- [frontend-design skill](skills/frontend-design/SKILL.md) — the central seven-phase orchestration workflow with per-project-type routing into the library.
+- [Taste skill (vendored)](skills/taste/SKILL.md) — taste-skill 2.5.1, vendored complete and unmodified (MIT, © 2026 Leonxlnx; upstream @ d1a2bb4): craft rules, dealt palettes/pairings, real-browser checker and finish gate.
+- [Be Ambitious (vendored)](skills/be-ambitious/SKILL.md) — RoboNuggets' implementation of Felix Rieseberg's altitude/depth/range methodology (MIT; upstream @ dc116a3).
+
+**[inspiration/](inspiration/README.md)** **[new]** — the discovery system: directories, an indexed collection of individual website references, extracted patterns, contribution workflow.
+- [Inspiration README](inspiration/README.md) — how to route, search, read and contribute.
+- [Directories](inspiration/directories.md) — the verified gallery catalogue with search craft; unresolved research-brief names recorded honestly (§9).
+- [Use-case index](inspiration/use-case-index.md) — 25 project/section types routed to directories, entries and knowledge files.
+- [Websites collection](inspiration/websites/README.md) — 12 structured reference entries ([index](inspiration/websites/website-index.md)): Stripe, Linear, Vercel, Apple, Figma, Arc, Family, Superlist, Ramp, Notion, Lusion, Igloo.
+- [Patterns](inspiration/patterns.md) — reusable moves extracted across the collection, each traced to references.
+- [Contributing](inspiration/contributing.md) — evaluation bar, inspection method, anti-copying rules, commit conventions.
+
+**[assets/](assets/README.md)** **[new]** — asset intelligence: source catalogues, the acquisition workflow, generation guidance, licensing.
+- [Assets README](assets/README.md) — the two acquisition routes (discover/generate), ground rules, browser-based discovery.
+- Class catalogues: [photography](assets/photography.md), [illustrations](assets/illustrations.md), [textures and materials](assets/textures-and-materials.md), [3D assets](assets/3d-assets.md), [icons](assets/icons.md), [typography sources](assets/typography.md), [video and motion](assets/video-and-motion.md), [sound](assets/sound.md), [backgrounds and effects](assets/backgrounds-and-effects.md).
+- [Image generation](assets/image-generation.md) — Route B: art-direction style sheets, prompts, seeds, cohesive sets, AI-tell QA.
+- [Acquisition workflow](assets/acquisition-workflow.md) — the nine-step procedure and per-candidate evaluation criteria.
+- [Licensing and provenance](assets/licensing-and-provenance.md) — the full licence table, manifest template, local asset organisation.
+
+**[visual-styles/](visual-styles/README.md)** **[new]** — the style vocabulary extension.
+- [Domain index](visual-styles/README.md) — extends [graphic-design/visual-styles](graphic-design/visual-styles.md).
+- [Interface styles](visual-styles/interface-styles.md) — 14 interface-materiality styles (glass, clay, neo-brutalism, bento, 3D, motion-led…) with recognition, implementation, fit and failure modes.
+- [Texture and period styles](visual-styles/texture-and-period-styles.md) — surface techniques (grain, halftone, dithering, duotone, riso…), period aesthetics (Y2K, cyberpunk, retro-futurism…), a 14-entry texture vocabulary and typographic extensions.
+
+**[motion-and-interaction/](motion-and-interaction/motion-principles.md)** **[new]** — the motion craft layer.
+- [Motion principles](motion-and-interaction/motion-principles.md) — purpose, hierarchy, timing laws (Fitts/Hick/Doherty), construction rules, accessibility floor.
+- [Animation libraries](motion-and-interaction/animation-libraries.md) — GSAP, Motion, Lenis, three.js/R3F, Theatre.js (dormancy flagged), Lottie, Rive, tsParticles, react-spring and the platform baseline, with verified status.
+- [Scroll experiences](motion-and-interaction/scroll-experiences.md) — honest scroll-driven patterns versus scroll-jacking, per-pattern budgets.
+- [Microinteractions](motion-and-interaction/microinteractions.md) — the small moments and UI sound design.
+
+**[ux-psychology/](ux-psychology/design-laws.md)** **[new]** — design laws and psychology.
+- [Design laws](ux-psychology/design-laws.md) — twenty laws in six operational parts each, with a claim-strength tier table separating established findings from borrowed heuristics.
+
+**[frontend-engineering/](frontend-engineering/README.md)** **[new]** — the engineering layer.
+- [Domain index](frontend-engineering/README.md) — sequence and scope.
+- [CSS architecture](frontend-engineering/css-architecture.md) — cascade layers, token tiers, container queries, fluid type, logical properties.
+- [Technology selection](frontend-engineering/technology-selection.md) — requirements-first stack decisions with rendering, state and SEO implications.
+- [Performance](frontend-engineering/performance.md) — budgets, Core Web Vitals, image/font/JS mechanics, measurement.
+- [Forms and data display](frontend-engineering/forms-and-data-display.md) — form architecture, validation UX, tables at scale, product charts.
+
+**[github-resources/](github-resources/catalogue.md)** **[new]** — the curated open-source sweep.
+- [Catalogue](github-resources/catalogue.md) — 40+ repositories verified via the GitHub API on 2026-11-25 (stars, licence, last push) across skills, motion, components, icons, QA and browser tooling; deliberate exclusions documented.
+
 ## K. Maintenance notes
 
 - **Adding or changing a file.** Follow the standard template (what/why/principles/how/application/decision framework/examples/mistakes/checklist/related/references), end every substantive file with a tagged References section, cross-link with repository-relative paths, and update this README's routing table and repository map plus [PROJECT_STATUS.md](PROJECT_STATUS.md) in the same change. A file that enters the library unlinked from the router will not be found by agents — the router is the contract.
+- **Vendored skills are upstream territory.** `skills/taste/` and `skills/be-ambitious/` are vendored unmodified from their upstream repositories (attribution and licences in [skills/README.md](skills/README.md) §3); fixes belong upstream, and the update procedure there records how to refresh without losing upstream changes. This library's own skill (`skills/frontend-design/`) and knowledge files are the place for project-specific additions.
 - **Commit-per-file convention.** Each file is committed individually, one commit per file, with a message naming the domain and file slug (for example `docs(colour): palette-development — role-based palette construction and testing`); README and PROJECT_STATUS each get their own commit. Never batch unrelated files into one commit, so history stays reviewable domain by domain and a bad file can be reverted alone. (Authoring agents in this project did not run git themselves, per the brief; the convention governs whoever integrates the work.)
 - **Re-verification policy.** Volatile facts (tool pricing, platform sizes, version numbers) are re-verified before use in any external deliverable, on a needs basis rather than a schedule; stable sources (standards, books) are re-verified only when quoting. The procedure, including retry-on-timeout and the tag-change rules, is in [Source accessibility](references/source-accessibility.md), section 9. Update the citing file's access date when you re-verify — not just the index.
 - **Link hygiene.** Every link in this README resolves as of 2026-11-24 (checked programmatically; see PROJECT_STATUS.md). When adding links, test them before writing; when moving or renaming a file, update every referencing file, not only the router.
