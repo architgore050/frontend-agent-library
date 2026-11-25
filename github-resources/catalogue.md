@@ -21,7 +21,7 @@ Queries ran across the mission's categories (agent skills, component libraries, 
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 40,110 | Apache-2.0 | 2026-11-18 | The Playwright MCP server — the standard browser-automation bridge for agents. This library's QA workflow ([../evaluation/website-visual-qa.md](../evaluation/website-visual-qa.md)) is written tool-agnostically but verified against this server's capability model. |
 | [MohtashamMurshid/getdesign](https://github.com/MohtashamMurshid/getdesign) | 55 | MIT | 2026-09-13 | On-demand design systems from any URL; small but directly on-mission (design tokens from references). Experimental — listed as a lead, not a dependency. |
 
-**Not integrated, deliberately:** the sweep surfaced dozens of single-purpose design-skill repos with < 1k stars, unclear licences or no maintenance; per the curation rules they are leads, not catalogue entries. The two mandatory integrations (taste, be-ambitious) plus Hallmark as a monitored alternative are the skill layer.
+**Not integrated, deliberately:** the sweep surfaced dozens of single-purpose design-skill repos with < 1k stars, unclear licences or no maintenance; per the curation rules they are leads, not catalogue entries. The two mandatory integrations (taste, be-ambitious) plus Hallmark and elayadesign/ai-design-skills as monitored alternatives are the skill layer.
 
 ## 4. Animation and motion
 
