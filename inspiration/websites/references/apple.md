@@ -20,7 +20,7 @@ Neutral grounds (white/black) with product-derived accents; colour enters throug
 
 ## Composition and layout
 
-Full-bleed product imagery; centred symmetry as the default; sections that map to one feature each with a headline, a short paragraph and the visuals. The layout grammar is so consistent it reads as a design language — which is the point ([../../design-systems/visual-consistency.md](../../design-systems/visual-consistency.md)).
+Full-bleed product imagery; centred symmetry as the default; sections that map to one feature each with a headline, a short paragraph and the visuals. The layout grammar is so consistent it reads as a design language — which is the point ([../../design-systems/visual-consistency.md](../../../design-systems/visual-consistency.md)).
 
 ## Navigation
 
@@ -28,8 +28,8 @@ Minimal global nav (the famous slim bar); product pages use local navigation —
 
 ## Interesting sections
 
-- **Product hero:** the device, huge, with one line of type. The "one object carries the screen" pattern ([../../skills/taste/SKILL.md](../../skills/taste/SKILL.md) §2 discipline at brand scale).
-- **Scroll-scrubbed feature explanations:** hardware features (chips, cameras) demonstrated through scroll-choreographed visuals — the canonical scroll-storytelling reference ([../../motion-and-interaction/scroll-experiences.md](../../motion-and-interaction/scroll-experiences.md) §5.3).
+- **Product hero:** the device, huge, with one line of type. The "one object carries the screen" pattern ([../../skills/taste/SKILL.md](../../../skills/taste/SKILL.md) §2 discipline at brand scale).
+- **Scroll-scrubbed feature explanations:** hardware features (chips, cameras) demonstrated through scroll-choreographed visuals — the canonical scroll-storytelling reference ([../../motion-and-interaction/scroll-experiences.md](../../../motion-and-interaction/scroll-experiences.md) §5.3).
 - **Compare/tech-spec tables:** dense information surfaces kept on-brand — the luxury-grade table.
 - **The home page product grid:** tile rhythm and hover behaviour as a catalogue pattern.
 
@@ -39,7 +39,7 @@ Scroll-driven choreography is the signature: pinned scenes, scrubbed type and vi
 
 ## Imagery and visual assets
 
-Studio-grade product photography and renders — the entire asset strategy is "render the product beautifully", with light direction consistent across thousands of images ([../../assets/image-generation.md](../../assets/image-generation.md) family-check principle at corporate scale).
+Studio-grade product photography and renders — the entire asset strategy is "render the product beautifully", with light direction consistent across thousands of images ([../../assets/image-generation.md](../../../assets/image-generation.md) family-check principle at corporate scale).
 
 ## Distinctive details
 
@@ -59,8 +59,14 @@ Hardware/product launches, luxury-adjacent brands, any scroll-storytelling proje
 
 ## Related references and patterns
 
-[Superlist](superlist.md) (kinetic type peer), [Igloo](igloo.md) (immersion peer), [Stripe](stripe.md) (trust surfaces); patterns: [../patterns.md](../patterns.md) §heroes, §scroll storytelling, §product grids.
+[Superlist](superlist.md) (kinetic type peer), [Igloo](igloo.md) (immersion peer), [Stripe](stripe.md) (trust surfaces); patterns: [../patterns.md](../../patterns.md) §heroes, §scroll storytelling, §product grids.
 
 ## What to verify live
 
 Current product-page choreography (each launch iterates the patterns), current type sizes, accessibility provisions on the newest pages.
+
+## References
+
+- This entry describes Apple's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
