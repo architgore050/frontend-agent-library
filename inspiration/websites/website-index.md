@@ -11,14 +11,14 @@ The searchable index of the [website reference collection](README.md): every ent
 | Entry | URL | Industry / category | Style position |
 | --- | --- | --- | --- |
 | [Stripe](references/stripe.md) | stripe.com | Fintech infrastructure / developer + business SaaS | Clean Swiss-inflected SaaS with signature gradient accents |
-| [Linear](references/linear.app) | linear.app | Developer tools / project tracking | Dark, precise, product-led minimalism |
+| [Linear](references/linear.md) | linear.app | Developer tools / project tracking | Dark, precise, product-led minimalism |
 | [Vercel](references/vercel.md) | vercel.com | Developer tools / deployment platform | Black-and-white minimalism with bold type and motion accents |
 | [Apple](references/apple.md) | apple.com | Consumer hardware / products | Product-led, imagery-dominant, kinetic type |
 | [Figma](references/figma.md) | figma.com | Design tools / SaaS | Playful multi-brand system, real product UI |
 | [Arc (The Browser Company)](references/arc.md) | thebrowser.com | Consumer software / browser | Warm, personality-led consumer software brand |
 | [Family](references/family.md) | family.co | Consumer apps / wellness & finance tools | Calm pastel minimalism, above-the-fold craft |
 | [Superlist](references/superlist.md) | superlist.com | Productivity / tasks | Maximalist colour, bold illustration-led |
-| [Ramp](references/ramp.com) | ramp.com | Fintech / spend management | Editorial fintech: serif-accented, data-rich, restrained |
+| [Ramp](references/ramp.md) | ramp.com | Fintech / spend management | Editorial fintech: serif-accented, data-rich, restrained |
 | [Notion](references/notion.md) | notion.com | Productivity / docs platform | Friendly product-led minimalism |
 | [Lusion](references/lusion.md) | lusion.co | Creative studio / portfolio | WebGL-first experimental portfolio |
 | [Igloo Inc](references/igloo.md) | igloo.inc | Tech company / immersive brand site | Award-class immersive 3D experience |
