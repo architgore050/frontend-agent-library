@@ -16,7 +16,7 @@ Inter-class grotesque with disciplined sizing; tight tracking on display sizes; 
 
 ## Colour system
 
-Layered dark surfaces (the dark-theme token architecture in practice: [../../colour/colour-in-code.md](../../colour/colour-in-code.md)) with one restrained accent for interactive emphasis; semantic states (issue statuses) are a mini colour system worth studying for any status-heavy UI.
+Layered dark surfaces (the dark-theme token architecture in practice: [../../colour/colour-in-code.md](../../../colour/colour-in-code.md)) with one restrained accent for interactive emphasis; semantic states (issue statuses) are a mini colour system worth studying for any status-heavy UI.
 
 ## Composition and layout
 
@@ -35,7 +35,7 @@ Minimal top nav; the product's own information architecture does most of the way
 
 ## Interaction and motion
 
-The signature: smooth, short, origin-aware motion everywhere — modals from their triggers, state changes that explain themselves. Linear's motion is the reason "it feels expensive" gets attributed to animation quality ([../../motion-and-interaction/motion-principles.md](../../motion-and-interaction/motion-principles.md)).
+The signature: smooth, short, origin-aware motion everywhere — modals from their triggers, state changes that explain themselves. Linear's motion is the reason "it feels expensive" gets attributed to animation quality ([../../motion-and-interaction/motion-principles.md](../../../motion-and-interaction/motion-principles.md)).
 
 ## Imagery and visual assets
 
@@ -43,7 +43,7 @@ The product itself, rendered at high fidelity (screenshots and interface recreat
 
 ## Distinctive details
 
-Dark-mode elevation logic; the issue-status colour semantics; the entrance choreography; the changelog voice (copy as craft — [../../skills/taste/SKILL.md](../../skills/taste/SKILL.md) copy rules in the wild).
+Dark-mode elevation logic; the issue-status colour semantics; the entrance choreography; the changelog voice (copy as craft — [../../skills/taste/SKILL.md](../../../skills/taste/SKILL.md) copy rules in the wild).
 
 ## What makes it effective
 
@@ -59,8 +59,14 @@ Developer tools, practitioner-facing SaaS, dark-theme products, anything status/
 
 ## Related references and patterns
 
-[Vercel](vercel.md) (light/dark sibling), [Stripe](stripe.md) (trust surfaces), [Ramp](ramp.md) (data surfaces); patterns: [../patterns.md](../patterns.md) §heroes, §dark themes, §feature reveals.
+[Vercel](vercel.md) (light/dark sibling), [Stripe](stripe.md) (trust surfaces), [Ramp](ramp.md) (data surfaces); patterns: [../patterns.md](../../patterns.md) §heroes, §dark themes, §feature reveals.
 
 ## What to verify live
 
 Current brand refresh (Linear has evolved its visual identity over time), current typefaces, whether any light-theme surfaces have appeared.
+
+## References
+
+- This entry describes Linear's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
