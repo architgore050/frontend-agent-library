@@ -51,11 +51,11 @@ Determine the visual direction deliberately: the style position, palette behavio
 
 ## Phase 3 — Research inspiration
 
-Find references appropriate to *this* product — and extract decisions, not pixels ([../inspiration/contributing.md](../inspiration/contributing.md) §6 anti-copying rules).
+Find references appropriate to *this* product — and extract decisions, not pixels ([../inspiration/contributing.md](../../inspiration/contributing.md) §6 anti-copying rules).
 
-1. Route from [../inspiration/use-case-index.md](../inspiration/use-case-index.md) (mandatory).
-2. Read the relevant collection entries ([../inspiration/websites/website-index.md](../inspiration/websites/website-index.md)); browse directories with their filters ([../inspiration/directories.md](../inspiration/directories.md)) — timeboxed.
-3. Extract patterns ([../inspiration/patterns.md](../inspiration/patterns.md)) into the plan: what this build takes from each reference and why.
+1. Route from [../inspiration/use-case-index.md](../../inspiration/use-case-index.md) (mandatory).
+2. Read the relevant collection entries ([../inspiration/websites/website-index.md](../../inspiration/websites/website-index.md)); browse directories with their filters ([../inspiration/directories.md](../../inspiration/directories.md)) — timeboxed.
+3. Extract patterns ([../inspiration/patterns.md](../../inspiration/patterns.md)) into the plan: what this build takes from each reference and why.
 4. Check the plan against the failure catalogue it must avoid: [../../evaluation/ai-design-failures.md](../../evaluation/ai-design-failures.md) (mandatory read once per project).
 
 ## Phase 4 — Plan assets
@@ -92,8 +92,8 @@ The build is not done when the code compiles; it is done when the rendered resul
 
 Record genuinely reusable discoveries; avoid polluting the library with project-specific noise.
 
-1. Exceptional sites discovered during the project → the inspiration contribution workflow ([../inspiration/contributing.md](../inspiration/contributing.md)) — evaluate, inspect, write the entry, update index/patterns, commit.
-2. New patterns worth naming → [../inspiration/patterns.md](../inspiration/patterns.md) with a reference trace.
+1. Exceptional sites discovered during the project → the inspiration contribution workflow ([../inspiration/contributing.md](../../inspiration/contributing.md)) — evaluate, inspect, write the entry, update index/patterns, commit.
+2. New patterns worth naming → [../inspiration/patterns.md](../../inspiration/patterns.md) with a reference trace.
 3. Useful assets/sources discovered → the asset catalogues ([../../assets/README.md](../../assets/README.md)) — only with verification ([../../references/frontend-phase-sources.md](../../references/frontend-phase-sources.md) discipline).
 4. One commit per file, message naming domain and slug ([../../PROJECT_STATUS.md](../../PROJECT_STATUS.md) §10).
 
@@ -103,12 +103,12 @@ Load the mandatory files for the build's type; consult others as touched:
 
 | Project type | Mandatory route | Additional |
 | --- | --- | --- |
-| **Landing page / company site** | taste-skill (governs), Phase 2 route, [use-case index](../inspiration/use-case-index.md) SaaS row, [ai-design-failures](../../evaluation/ai-design-failures.md), [website-visual-qa](../../evaluation/website-visual-qa.md) | [assets](../../assets/README.md) per slot, [patterns](../inspiration/patterns.md) |
+| **Landing page / company site** | taste-skill (governs), Phase 2 route, [use-case index](../../inspiration/use-case-index.md) SaaS row, [ai-design-failures](../../evaluation/ai-design-failures.md), [website-visual-qa](../../evaluation/website-visual-qa.md) | [assets](../../assets/README.md) per slot, [patterns](../../inspiration/patterns.md) |
 | **Dashboard / app surface** | [ux-fundamentals](../../ui-ux/ux-fundamentals.md), [ui-fundamentals](../../ui-ux/ui-fundamentals.md), [css-architecture](../../frontend-engineering/css-architecture.md), [forms-and-data-display](../../frontend-engineering/forms-and-data-display.md), [design-laws](../../ux-psychology/design-laws.md), [wcag](../../accessibility/wcag-fundamentals.md) | [data-visualisation](../../information-design/data-visualisation.md), [performance](../../frontend-engineering/performance.md) |
-| **Cinematic / immersive** | [scroll-experiences](../../motion-and-interaction/scroll-experiences.md), [animation-libraries](../../motion-and-interaction/animation-libraries.md), [interface styles](../../visual-styles/interface-styles.md) §4.10–4.12, [performance](../../frontend-engineering/performance.md), [Lusion/Igloo entries](../inspiration/websites/website-index.md) | [3d-assets](../../assets/3d-assets.md), [texture styles](../../visual-styles/texture-and-period-styles.md) |
-| **E-commerce** | [use-case index](../inspiration/use-case-index.md) e-commerce row, [forms-and-data-display](../../frontend-engineering/forms-and-data-display.md) (checkout), [Stripe entry](../inspiration/websites/references/stripe.md), [image-selection](../../imagery/image-selection.md) | [colour psychology](../../colour/colour-psychology.md), [performance](../../frontend-engineering/performance.md) |
-| **Editorial / publishing** | [editorial-design](../../typography/editorial-design.md), [typesetting](../../typography/typesetting.md), [grid-systems](../../layout/grid-systems.md), [Ramp entry](../inspiration/websites/references/ramp.md) | [web-typography](../../typography/web-typography.md), [image treatment](../../imagery/image-treatment.md) |
-| **Portfolio / small site** | Phase 2 route, [Family entry](../inspiration/websites/references/family.md), [patterns](../inspiration/patterns.md) §heroes/§footers, [website-visual-qa](../../evaluation/website-visual-qa.md) | [one-page references](../inspiration/directories.md) §4 |
+| **Cinematic / immersive** | [scroll-experiences](../../motion-and-interaction/scroll-experiences.md), [animation-libraries](../../motion-and-interaction/animation-libraries.md), [interface styles](../../visual-styles/interface-styles.md) §4.10–4.12, [performance](../../frontend-engineering/performance.md), [Lusion/Igloo entries](../../inspiration/websites/website-index.md) | [3d-assets](../../assets/3d-assets.md), [texture styles](../../visual-styles/texture-and-period-styles.md) |
+| **E-commerce** | [use-case index](../../inspiration/use-case-index.md) e-commerce row, [forms-and-data-display](../../frontend-engineering/forms-and-data-display.md) (checkout), [Stripe entry](../../inspiration/websites/references/stripe.md), [image-selection](../../imagery/image-selection.md) | [colour psychology](../../colour/colour-psychology.md), [performance](../../frontend-engineering/performance.md) |
+| **Editorial / publishing** | [editorial-design](../../typography/editorial-design.md), [typesetting](../../typography/typesetting.md), [grid-systems](../../layout/grid-systems.md), [Ramp entry](../../inspiration/websites/references/ramp.md) | [web-typography](../../typography/web-typography.md), [image treatment](../../imagery/image-treatment.md) |
+| **Portfolio / small site** | Phase 2 route, [Family entry](../../inspiration/websites/references/family.md), [patterns](../../inspiration/patterns.md) §heroes/§footers, [website-visual-qa](../../evaluation/website-visual-qa.md) | [one-page references](../../inspiration/directories.md) §4 |
 
 **Minimum route for any frontend task:** one foundations file + the owning domain file(s) + the matching evaluation file — never fewer.
 
