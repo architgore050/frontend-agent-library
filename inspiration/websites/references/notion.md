@@ -16,7 +16,7 @@ Neutral grotesque system with strong scale discipline; the personality lives in 
 
 ## Colour system
 
-Warm-neutral base with a tidy accent set used for product-category moments; illustration carries the colour. The lesson: colour budget spent on *meaning* (categories, states) rather than decoration ([../../colour/palette-development.md](../../colour/palette-development.md)).
+Warm-neutral base with a tidy accent set used for product-category moments; illustration carries the colour. The lesson: colour budget spent on *meaning* (categories, states) rather than decoration ([../../colour/palette-development.md](../../../colour/palette-development.md)).
 
 ## Composition and layout
 
@@ -28,7 +28,7 @@ Clear product nav; the template gallery and use-case pages are the deep-navigati
 
 ## Interesting sections
 
-- **Use-case galleries:** "for engineering / design / research…" — the flexibility-product marketing pattern ([../patterns.md](../patterns.md) §use-case grids).
+- **Use-case galleries:** "for engineering / design / research…" — the flexibility-product marketing pattern ([../patterns.md](../../patterns.md) §use-case grids).
 - **Template gallery:** previewed, filterable, real — the marketplace surface reference.
 - **Product changelog/blog:** voice continuity and real product proof.
 - **AI-era feature pages:** the current messaging layer (verify live — this is the evolving part).
@@ -59,8 +59,14 @@ Productivity tools, flexible platforms, marketplaces/templates, docs-adjacent pr
 
 ## Related references and patterns
 
-[Figma](figma.md) (warm system peer), [Linear](linear.md) (practitioner peer), [Stripe](stripe.md) (docs peer); patterns: [../patterns.md](../patterns.md) §use-case grids, §template galleries, §copy voice.
+[Figma](figma.md) (warm system peer), [Linear](linear.md) (practitioner peer), [Stripe](stripe.md) (docs peer); patterns: [../patterns.md](../../patterns.md) §use-case grids, §template galleries, §copy voice.
 
 ## What to verify live
 
 AI-era messaging and section set (Notion's positioning changes fast), current illustration style.
+
+## References
+
+- This entry describes Notion's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
