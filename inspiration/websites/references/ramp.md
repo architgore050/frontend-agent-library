@@ -12,15 +12,15 @@ Editorial-modern B2B: restrained palette, serif-accented display type, data visu
 
 ## Typography
 
-The signature move is the **serif-accent pairing** — a serif display face carrying headlines against a grotesque workhorse ([../../typography/font-pairing.md](../../typography/font-pairing.md) contrast pairing), with tabular numerals honoured in every data surface. Editorial measure and leading discipline on longer content.
+The signature move is the **serif-accent pairing** — a serif display face carrying headlines against a grotesque workhorse ([../../typography/font-pairing.md](../../../typography/font-pairing.md) contrast pairing), with tabular numerals honoured in every data surface. Editorial measure and leading discipline on longer content.
 
 ## Colour system
 
-Restrained: a calm neutral base, one or two deep accents, semantic colours functional in data surfaces. The restraint is the trust mechanism — the opposite failure is fintech neon ([../../accessibility/accessible-colour.md](../../accessibility/accessible-colour.md) and token discipline apply).
+Restrained: a calm neutral base, one or two deep accents, semantic colours functional in data surfaces. The restraint is the trust mechanism — the opposite failure is fintech neon ([../../accessibility/accessible-colour.md](../../../accessibility/accessible-colour.md) and token discipline apply).
 
 ## Composition and layout
 
-Editorial layouts: asymmetric feature spreads, pull-quote moments, generous margins; data sections use disciplined card/tabular composition ([../../frontend-engineering/forms-and-data-display.md](../../frontend-engineering/forms-and-data-display.md) dashboard anatomy).
+Editorial layouts: asymmetric feature spreads, pull-quote moments, generous margins; data sections use disciplined card/tabular composition ([../../frontend-engineering/forms-and-data-display.md](../../../frontend-engineering/forms-and-data-display.md) dashboard anatomy).
 
 ## Navigation
 
@@ -29,7 +29,7 @@ Clear B2B nav (product lines, solutions, resources); the resources/blog surfaces
 ## Interesting sections
 
 - **Editorial hero:** serif headline over composed photography — the authority-first first screen.
-- **Data/trust surfaces:** savings numbers presented with chart craft ([../../information-design/data-visualisation.md](../../information-design/data-visualisation.md)) — the numbers ARE the marketing.
+- **Data/trust surfaces:** savings numbers presented with chart craft ([../../information-design/data-visualisation.md](../../../information-design/data-visualisation.md)) — the numbers ARE the marketing.
 - **Case-study surfaces:** customer stories laid out like magazine features (the B2B social-proof reference).
 - **Product surfaces (dashboard marketing):** the real product rendered in the editorial system — the seam worth studying.
 
@@ -39,7 +39,7 @@ Quiet: editorial reveals, subtle chart animations (numbers that count truthfully
 
 ## Imagery and visual assets
 
-Editorial photography (treated, consistent grading — [../../imagery/image-treatment.md](../../imagery/image-treatment.md)), real data visualisations, product UI. No decorative illustration.
+Editorial photography (treated, consistent grading — [../../imagery/image-treatment.md](../../../imagery/image-treatment.md)), real data visualisations, product UI. No decorative illustration.
 
 ## Distinctive details
 
@@ -59,8 +59,14 @@ B2B fintech, professional services, data products, content-heavy B2B.
 
 ## Related references and patterns
 
-[Stripe](stripe.md) (trust peer), [Linear](linear.md) (data peer), [Apple](apple.md) (restraint peer); patterns: [../patterns.md](../patterns.md) §editorial heroes, §data trust surfaces, §case studies.
+[Stripe](stripe.md) (trust peer), [Linear](linear.md) (data peer), [Apple](apple.md) (restraint peer); patterns: [../patterns.md](../../patterns.md) §editorial heroes, §data trust surfaces, §case studies.
 
 ## What to verify live
 
 Current brand era (Ramp has iterated its identity), current chart/dashboard marketing treatment.
+
+## References
+
+- This entry describes Ramp's design direction from documented professional knowledge of a long-public, widely discussed site; it carries `[canonical]`-grade claims under the library's tag rules ([../../../README.md](../../../README.md) §H): no invented technical specifics, metrics or quotes.
+- Recorded 2026-11-25. Before relying on any specific detail (typefaces, section order, stack), verify live at the URL above — the *What to verify live* field lists the volatile items.
+- The entry's structural claims follow the collection template ([../../README.md](../../README.md) §4–§5).
