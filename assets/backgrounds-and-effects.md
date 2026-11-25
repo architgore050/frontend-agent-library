@@ -16,6 +16,7 @@ Backgrounds are where AI-generated frontends most visibly cheat: a purple gradie
 - **Mesh Gradient — https://meshgradient.in/ [accessed 2026-11-25]** — multi-point mesh gradients (the soft multi-colour blend style); export PNG or CSS — palette-fit the stops to tokens before export.
 - **Cool Backgrounds — https://coolbackgrounds.io/ [search-verified, accessed 2026-11-25]** — the multi-tool (gradients, topography, particles, images) from the Bucher/Nameeq collaboration; quick exploratory generator.
 - **Haikei — https://haikei.app/ [accessed 2026-11-25]** — the SVG scene generator (waves, blobs, circles, confetti, low-poly, grid patterns); exports SVG (light, token-recolorable) or PNG. The default source for *shape-based* decorative backgrounds.
+- **ShaderGradient — https://shadergradient.co/ (ruucm/shadergradient, 3,258★, licence undetected — verify before reuse) [search-verified, 2026-11-25]** — animated R3F shader gradients usable from React, Framer and Figma; the ready-made option when a design needs a *living* gradient ground ([../github-resources/catalogue.md](../github-resources/catalogue.md) §5). Budget it like any WebGL asset and recolour to tokens.
 
 ### 3.2 Particle effects
 
