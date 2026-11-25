@@ -52,6 +52,7 @@ Queries ran across the mission's categories (agent skills, component libraries, 
 | [radix-ui/primitives](https://github.com/radix-ui/primitives) | 19,570 | MIT | 2026-10-14 | Headless accessible primitives — the a11y engine under most modern component libraries. |
 | [kokonut-labs/kokonutui](https://github.com/kokonut-labs/kokonutui) | 2,413 | MIT | 2026-11-21 | 100+ open-source React components for AI chat/agents (https://kokonutui.com) — resolved from the brief's "Coconut UI". |
 | [gluestack/gluestack-ui](https://github.com/gluestack/gluestack-ui) | 5,360 | (custom) | 2026-11-17 | React + React Native copy-paste components. |
+| [shuding/liquid-glass](https://github.com/shuding/liquid-glass) | 1,238 | MIT | 2026-03-26 | Copy-paste Liquid Glass shader (SVG + WebGL) by Shu Ding — the implementation reference for the glassmorphism style ([../visual-styles/interface-styles.md](../visual-styles/interface-styles.md) §4.1); resolved from the brief's "liquidglass.js". |
 
 Verified-sites without a clear official repository (use the site's own registry): 21st.dev (component marketplace), Origin UI (https://originui.com, 500+ copy-paste components; community ports exist for Vue/Angular/Svelte), Spell UI (https://spell.sh), Watermelon UI (https://ui.watermelon.sh), Aceternity UI (https://ui.aceternity.com), Motion Primitives (https://motion-primitives.com). Check each site's component licence on use.
 
